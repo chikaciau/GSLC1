@@ -44,7 +44,7 @@
             @endforeach
         </tbody>
   </table>
-    @while($count<=$data->count())
+    @while($count<$data->count())
         @php $count++ @endphp
     @endwhile
     Jumlah Data: {{ $count }}
